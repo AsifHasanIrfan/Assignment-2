@@ -3,16 +3,25 @@
     padding: 0;
 }
 header{
-    background-color:rgb(55,81,126);
+    background-color: #034f84;
     background-image: url('images/bg.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
 .first-h1{
-    color:	#7FFFD4;
+    color:#ff0097;
+    font-weight: 600;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
 }
 .second-h1{
-    color: 	#FFF0F5;
+    color: 	#7B0099;
+    font-weight: 600;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+}
+h1, h2, h3, h4{
+    font-family: 'Bebas Neue', cursive;  
 }
 h3{
     color: coral;
@@ -20,9 +29,6 @@ h3{
 .navbar-brand img{
     width: 160px;
 }
-/* .row, .col-md-6{
-    border: 2px solid red;
-} */
 .btn{
     background-color: rgb(66, 236, 245);
     color: white;
@@ -50,6 +56,26 @@ h3{
     background-color: white;
     margin: 0 8px;
 }
-.suport-card{
-    box-shadow: ;
+.subscribe{
+    background-color: black;
+}
+.footer-section{
+    background-color: bisque;
+    height: 80px;
+    margin-top: 50px;
+}
+.footer-h4{
+    color: white;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.568);
+}
+.footer-row{
+    height: 80px;
+}
+.footer-link a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
 }
